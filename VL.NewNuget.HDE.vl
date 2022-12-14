@@ -17,7 +17,7 @@
           <Canvas Id="J2qYGXLph4nOxdZV2MEAq3" CanvasType="Group">
             <Pad Id="VpQtLHLc2BFQG8xvAebWjl" SlotId="Kq6EteLXFoNLAmLHjjUgHZ" Bounds="544,218" />
             <ControlPoint Id="JXhnYJmI59ZPfvkNrGnzIQ" Bounds="544,286" />
-            <Pad Id="RQQSv1et1syL8ZJnrCKvUI" Comment="Templates Folder" Bounds="544,154,185,15" ShowValueBox="true" isIOBox="true" Value="https://github.com/antongit/NugetTemplate/archive/refs/heads/main.zip">
+            <Pad Id="RQQSv1et1syL8ZJnrCKvUI" Comment="Templates Folder" Bounds="546,-70,389,15" ShowValueBox="true" isIOBox="true" Value="https://github.com/antongit/NugetTemplate/releases/download/v0.0.1-alpha/NugetTemplate-0.0.1.zip">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="System.Runtime.dll">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -54,11 +54,6 @@
               </p:NodeReference>
               <Pin Id="LvzMve6HgzLMoYLUSiyZDX" Name="Result" Kind="OutputPin" />
             </Node>
-            <Pad Id="Rlm6nWzfDtfObCzZkzTalB" Comment="" Bounds="1629,102,117,15" ShowValueBox="true" isIOBox="true" Value="NugetTemplate.zip">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
-                <Choice Kind="TypeFlag" Name="String" />
-              </p:TypeAnnotation>
-            </Pad>
             <Pad Id="Shs7Ma3KPsKL6jph5dsNhA" SlotId="OjllsKSYfp6QMKshDNFMWN" Bounds="1821,231" />
             <ControlPoint Id="PqhqKplVvfGOhkKVL6s6XD" Bounds="1822,285,14,0" />
             <Node Bounds="1819,136,60,19" Id="KCCG1Rn6MJkOr4H1yw3QdE">
@@ -119,6 +114,43 @@
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="QRODUiw8G9IMOPhk2E7IHk" Bounds="2070,280" />
+            <Node Bounds="1416,-1,54,19" Id="NVcqxBdBvn4Ol06FCW3Ez3">
+              <p:NodeReference LastCategoryFullName="Text.RegularExpressions" LastSymbolSource="VL.CoreLib.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="Category" Name="RegularExpressions" NeedsToBeDirectParent="true" />
+                <Choice Kind="ProcessAppFlag" Name="Matches" />
+              </p:NodeReference>
+              <Pin Id="EIw4MVouXe2LgNL9BWXBtY" Name="Input" Kind="InputPin" />
+              <Pin Id="TniZqnvCtSxOfHyeearw3b" Name="Pattern" Kind="InputPin" />
+              <Pin Id="EpVNR5MPj9GQHMSESsV1TC" Name="Options" Kind="InputPin" />
+              <Pin Id="ShtKK9EVaekN9mzgIfwMpU" Name="Result" Kind="OutputPin" />
+              <Pin Id="QpGdyBVcoiYM0MFtiua4D4" Name="Result Groups" Kind="OutputPin" />
+            </Node>
+            <Pad Id="I4BmZN5mas8PlNNCs0ReJQ" Comment="Pattern" Bounds="1442,-23,42,15" ShowValueBox="true" isIOBox="true" Value=".*\/(.*)?$">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pad>
+            <Node Bounds="1465,33,80,19" Id="JzzlAyYYb5ONDXX6GDDbxl">
+              <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.CoreLib.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="FirstOrDefault" />
+              </p:NodeReference>
+              <Pin Id="UjesGA1hQ66OCAlcNDffrp" Name="Input" Kind="StateInputPin" />
+              <Pin Id="TD8uVOPXog0MyACnAxh4mD" Name="Default Value" Kind="InputPin" />
+              <Pin Id="KWAH8Vd3ofzNZTu3dvRWv2" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="MMSS3HMYArDLEINNOTNqgd" Name="Result" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="1540,62,80,19" Id="GTWDT3IXRYSMHUyyzuY4lT">
+              <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.CoreLib.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="FirstOrDefault" />
+              </p:NodeReference>
+              <Pin Id="RPT3gGqNmwSOtoNK8meSO4" Name="Input" Kind="StateInputPin" />
+              <Pin Id="A6CrZbkZBrINVRpxhoIXrL" Name="Default Value" Kind="InputPin" />
+              <Pin Id="Q0OiS5imenNPSRGK95HRk3" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="OssNTKJcPaUQZa4PuJKdvT" Name="Result" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <ProcessDefinition Id="DLCe3FCQw41Lp0RTolMLnn">
             <Fragment Id="LGCIE96jznmML4jUJ6IJLs" Patch="V2zMrIh4LMgLTCsHWr2R6X" Enabled="true" />
@@ -165,7 +197,6 @@
           <Link Id="AgUUCFVYk20Nbfd6HmUUoI" Ids="UgWlLJKiz9HO1h1JixxqgD,Q2qc05B4HtWMVoDFyGd9sf" IsHidden="true" />
           <Link Id="U4ZKchbUg9NPSkAp0r9xue" Ids="VpQtLHLc2BFQG8xvAebWjl,JXhnYJmI59ZPfvkNrGnzIQ" />
           <Link Id="AdIzVIOmMwCOQNw8Z95GiH" Ids="LvzMve6HgzLMoYLUSiyZDX,RqcZsiObToBN6r8IAt3Fa5" />
-          <Link Id="J77CR5UTrLmL2JVfj1xaPO" Ids="Rlm6nWzfDtfObCzZkzTalB,GoTjdjwrhsaNB0QxUbPWdr" />
           <Link Id="MYHu2BoQsNLOz3xh59TAlz" Ids="CTcuGptQlxlL81GNXZ4M4K,CoxeojkALNbPjry9MEGvl7" />
           <Link Id="B0Im7nOut21Lx5xfRINdhu" Ids="Shs7Ma3KPsKL6jph5dsNhA,PqhqKplVvfGOhkKVL6s6XD" />
           <Link Id="KcteVtjRKooO5VI2NWZpcZ" Ids="KszRb7b1tCzPcHyYr1ynmC,NFH4FTbsyBTOX76g46frN3" />
@@ -185,6 +216,11 @@
           <Link Id="IygjQ0YY64WLrgMRV9LXSh" Ids="PtAhqxMNH5pNyTpVH626Kp,NLYJJzhlG1VQd8J8xELY3u" />
           <Link Id="EOQ4V69EDSyOnukhzKPzVX" Ids="NLYJJzhlG1VQd8J8xELY3u,QRODUiw8G9IMOPhk2E7IHk" />
           <Link Id="CSkg5e37NtSNrY8bgDVHSR" Ids="QRODUiw8G9IMOPhk2E7IHk,KvBAXZQqa8AMn4lNUrLafH" IsHidden="true" />
+          <Link Id="AhfcBBrj3oLN6dh8idYcww" Ids="I4BmZN5mas8PlNNCs0ReJQ,TniZqnvCtSxOfHyeearw3b" />
+          <Link Id="SMOwpcSp35FNlDQQWbTJDZ" Ids="QpGdyBVcoiYM0MFtiua4D4,UjesGA1hQ66OCAlcNDffrp" />
+          <Link Id="MkpQMpEVPCVL7MnOJbgimk" Ids="MMSS3HMYArDLEINNOTNqgd,RPT3gGqNmwSOtoNK8meSO4" />
+          <Link Id="Q8EYV5cpEbWMaXQ1pBcbog" Ids="OssNTKJcPaUQZa4PuJKdvT,GoTjdjwrhsaNB0QxUbPWdr" />
+          <Link Id="KapB0CPcsRjPPcoKI2O6wb" Ids="RQQSv1et1syL8ZJnrCKvUI,EIw4MVouXe2LgNL9BWXBtY" />
         </Patch>
       </Node>
       <!--
