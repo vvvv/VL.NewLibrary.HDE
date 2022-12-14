@@ -25,7 +25,7 @@ jobs:
     - name: Publish VL Nuget
       uses: vvvv/PublishVLNuget@1.0.41
       with:
-        nuspec: deployment\VL.NewNuget.HDE.nuspec
+        nuspec: deployment\VL.NuGet.HDE.nuspec
         icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/master/nugeticon.png
         icon-dst: ./deployment/nugeticon.png
         nuget-key: ${{ secrets.VVVV_ORG_NUGET_KEY }}
