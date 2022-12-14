@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.NuGet.HDE</id>
-    <version>0.0.3-alpha</version>
+    <version>0.0.4-alpha</version>
     <title>VL.NuGet.HDE</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
@@ -15,7 +15,7 @@
   </metadata>
   <files>
     <file src="..\*.vl" target="" exclude="" />
-    <file src="..\Lib\*.vl" target="" exclude="" />
+    <file src="..\Lib\*.vl" target="Lib\" exclude="" />
 	  <file src="..\Assets\**" target="Assets\" exclude="" />
 	  <file src="nugeticon.png" target="icon\" />
   </files>
