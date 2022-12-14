@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.NewNuget.HDE</id>
+    <version>0.0.1-alpha</version>
+    <title>VL.NewNuget.HDE</title>
+    <authors>vvvv</authors>
+    <owners>vvvv</owners>
+    <projectUrl>https://github.com/vvvv/VL.NewNuget.HDE</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>UI to create a new Nuget</summary>
+    <description>UI to create a new Nuget</description>
+    <tags>VL, nuget, UI</tags>
+	<icon>icon\nugeticon.png</icon>
+  </metadata>
+  <files>
+    <file src="..\*.vl" target="" exclude="" />
+	  <file src="..\Assets\**" target="Assets\" exclude="" />
+	  <file src="nugeticon.png" target="icon\" />
+  </files>
+</package>
