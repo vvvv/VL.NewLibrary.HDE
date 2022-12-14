@@ -15,6 +15,7 @@
   </metadata>
   <files>
     <file src="..\*.vl" target="" exclude="" />
+    <file src="..\Lib\*.vl" target="" exclude="" />
 	  <file src="..\Assets\**" target="Assets\" exclude="" />
 	  <file src="nugeticon.png" target="icon\" />
   </files>
