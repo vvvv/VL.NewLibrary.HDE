@@ -8,8 +8,8 @@
     <owners>vvvv</owners>
     <projectUrl>https://github.com/vvvv/VL.NewNuget.HDE</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary>UI to create a new Nuget</summary>
-    <description>UI to create a new Nuget</description>
+    <summary>A vvvv extension to create a new nuget</summary>
+    <description>A vvvv extension to create new nuget</description>
     <tags>VL, nuget, UI</tags>
 	<icon>icon\nugeticon.png</icon>
   </metadata>

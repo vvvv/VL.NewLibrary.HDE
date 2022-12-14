@@ -1,12 +1,13 @@
-# VL.Nuget.Template
-Lorem Ipsum.
+# VL.NuGet.HDE
+A [vvvv](http://visualprogramming.net) extension to create a new nuget.
 
 Try it with vvvv, the visual live-programming environment for .NET  
-Download: http://visualprogramming.net
+Download: https://visualprogramming.net/#Download
 
-## Using the library
-In order to use this library with VL you have to install the nuget that is available via nuget.org. For information on how to use nugets with VL, see [Managing Nugets](https://thegraybook.vvvv.org/reference/libraries/dependencies.html#manage-nugets) in the VL documentation. As described there you go to the commandline and then type:
+**Note:  
+To be used with the 2022.5 Previews.**
 
-    nuget install VL.Nuget.Template -pre
+## Using the extension
+In order to use it with VL you have to install the nuget that is available via nuget.org. For information on how to use nugets with VL, see [Managing Nugets](https://thegraybook.vvvv.org/reference/libraries/dependencies.html#manage-nugets) in the VL documentation. As described there you go to the commandline and then type:
 
-Demos are available via the Help Browser!
+    nuget install VL.NewNuget.HDE -pre
