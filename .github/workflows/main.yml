@@ -11,19 +11,19 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+    
     steps:
     - name: Git Checkout
       uses: actions/checkout@master
-    
+      
     - name: Setup MSBuild.exe
-      uses: microsoft/setup-msbuild@v1.0.0
+      uses: microsoft/setup-msbuild@v1.0.2
 
     - name: Setup Nuget.exe
       uses: nuget/setup-nuget@v1
-
+      
     - name: Publish VL Nuget
-      uses: vvvv/PublishVLNuget@1.0.40
-      with:
+      uses: vvvv/PublishVLNuget@1.0.41
         nuspec: deployment\VL.NewNuget.HDE.nuspec
         icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/master/nugeticon.png
         icon-dst: ./deployment/nugeticon.png
