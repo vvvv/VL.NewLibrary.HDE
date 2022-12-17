@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <id>VL.NuGet.HDE</id>
-    <version>0.0.7-alpha</version>
-    <title>VL.NuGet.HDE</title>
+    <id>VL.NewLibrary.HDE</id>
+    <version>0.0.8-alpha</version>
+    <title>VL.NewLibrary.HDE</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
-    <projectUrl>https://github.com/vvvv/VL.NuGet.HDE</projectUrl>
+    <projectUrl>https://github.com/vvvv/VL.NewLibrary.HDE</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>A vvvv extension to create a new nuget</summary>
     <description>A vvvv extension to create a new nuget</description>
