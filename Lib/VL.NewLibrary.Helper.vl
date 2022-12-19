@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Vv5HQFJI4ZwNf4oYWXGaAe" LanguageVersion="2022.5.0-0415-9f84c137b4" Version="0.128">
+<Document xmlns:p="property" Id="JVXkhJu10AbOxwEGasr9tw" LanguageVersion="2022.5.0-0416-73f6eb1214" Version="0.128">
   <NugetDependency Id="OL9hP65cAbHMpfTbo9KnAl" Location="VL.CoreLib" Version="2022.5.0-0415-g9f84c137b4" />
   <Patch Id="LDMkIeZ47NoOdzmDTrn8vR">
-    <Canvas Id="TB1ZqAEXZvAMjUbCD9wchk" DefaultCategory="NuGet" CanvasType="FullCategory">
+    <Canvas Id="TB1ZqAEXZvAMjUbCD9wchk" DefaultCategory="HDE.NewLibrary" CanvasType="FullCategory">
       <!--
 
     ************************ CreateButton ************************
@@ -64,7 +64,7 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="647,334,67,19" Id="Jd9z0wZ3NTiNxibMF2v0SO">
-                  <p:NodeReference LastCategoryFullName="NewWizard" LastSymbolSource="VL.NuGet.Helper.vl">
+                  <p:NodeReference LastCategoryFullName="NuGet" LastSymbolSource="VL.NewLibrary.Helper.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="ButtonStyle" />
                   </p:NodeReference>
@@ -151,7 +151,7 @@
             <ControlPoint Id="GEhyxpWMIIYMug3heujQEr" Bounds="431,479" />
             <ControlPoint Id="Gklgsj6iU42PwPDbAhVZg2" Bounds="760,312" />
             <Node Bounds="544,671,36,26" Id="Olv2sMSinhYOk29dwOVuMw">
-              <p:NodeReference LastCategoryFullName="NewWizard.Files" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NuGet.Files" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="RecordType" Name="Files" />
                 <Choice Kind="OperationCallFlag" Name="Split" />
@@ -171,7 +171,7 @@
                 <Patch Id="KigWB0q8MO1PdbR0dgP05M" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="RDPhIzlesyBPXoPJO86JNV" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="543,881,79,19" Id="OQvfkIQ5QJpLRu34DH1bUj">
-                  <p:NodeReference LastCategoryFullName="NewWizard" LastSymbolSource="VL.NuGet.Helper.vl">
+                  <p:NodeReference LastCategoryFullName="NuGet" LastSymbolSource="VL.NewLibrary.Helper.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="OpenExplorer" />
                   </p:NodeReference>
@@ -188,10 +188,9 @@
               </Patch>
             </Node>
             <Node Bounds="437,788,87,19" Id="VHRspaXoSoZLjhgyofjM9j">
-              <p:NodeReference LastCategoryFullName="NewWizard" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NewLibrary" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ShowInExplorer" />
-                <CategoryReference Kind="Category" Name="NuGet" NeedsToBeDirectParent="true" />
               </p:NodeReference>
               <Pin Id="I9xz7xJdIu1LtcTJJBAvNc" Name="Context" Kind="InputPin" />
               <Pin Id="DtMMQEzjzQCM5A6yxCX3ln" Name="Context" Kind="OutputPin" />
@@ -209,7 +208,7 @@
               <Pin Id="F1SySPSTEhVQQouIfKGxKa" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="507,382,43,19" Id="PL3NF6AIfvoQIdS6h7F0aC">
-              <p:NodeReference LastCategoryFullName="NewWizard" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NuGet" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Styles" />
               </p:NodeReference>
@@ -217,7 +216,7 @@
               <Pin Id="Vb2HL0m58hFP2CS57hDf0W" Name="Value" Kind="OutputPin" />
             </Node>
             <Node Bounds="510,414,65,26" Id="T26rGxutAtELYJRtWiG5Oj">
-              <p:NodeReference LastCategoryFullName="NewWizard.StylesCore" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NuGet.StylesCore" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Text" />
                 <CategoryReference Kind="RecordType" Name="StylesCore" NeedsToBeDirectParent="true" />
@@ -335,7 +334,7 @@
             </Pad>
             <ControlPoint Id="Ox9RaZhPQOuOtwy7qg2FY5" Bounds="567,533" />
             <Node Bounds="530,309,67,19" Id="JTiKYenlFPROyJGovJH9XQ">
-              <p:NodeReference LastCategoryFullName="NewWizard" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NuGet" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ButtonStyle" />
               </p:NodeReference>
@@ -596,16 +595,15 @@
             </Node>
             <ControlPoint Id="JzIJUOawzS4QSDxNLWrE30" Bounds="321,671" />
             <Node Bounds="609,145,43,19" Id="S9Qdn97CRLdMLQFCk4KkJV">
-              <p:NodeReference LastCategoryFullName="NewWizard" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NewLibrary" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Styles" />
-                <CategoryReference Kind="Category" Name="NuGet" NeedsToBeDirectParent="true" />
               </p:NodeReference>
               <Pin Id="FkmgtXXOFcLPmqhmKwqRRt" Name="Output" Kind="OutputPin" />
               <Pin Id="FNzEfZw8LifQAmtHJVEIgX" Name="Value" Kind="OutputPin" />
             </Node>
             <Node Bounds="647,184,54,26" Id="MEgKAQU7OwEO7QV4iUxON6">
-              <p:NodeReference LastCategoryFullName="NewWizard.StylesCore" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NuGet.StylesCore" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Button" />
                 <CategoryReference Kind="RecordType" Name="StylesCore" NeedsToBeDirectParent="true" />
@@ -616,7 +614,7 @@
               <Pin Id="OBcxh3IrhwYOOLs3nu4CkW" Name="Active" Kind="OutputPin" />
             </Node>
             <Node Bounds="717,183,77,26" Id="RubikO8GMqVQSaaNjDK5Nf">
-              <p:NodeReference LastCategoryFullName="NewWizard.StylesCore" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NuGet.StylesCore" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Text" />
                 <CategoryReference Kind="RecordType" Name="StylesCore" NeedsToBeDirectParent="true" />
@@ -1054,7 +1052,7 @@
                     <Patch Id="CgH3Qwsv7rvQXD4OSHDSbc" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="PLv38PPKf4BNzllbZAqv1w" Name="Update" ManuallySortedPins="true" />
                     <Node Bounds="206,956,76,19" Id="SYiQ2ZDAWWLMqLX9sjUpTY">
-                      <p:NodeReference LastCategoryFullName="NewWizard" LastSymbolSource="VL.NuGet.Helper.vl">
+                      <p:NodeReference LastCategoryFullName="NewLibrary" LastSymbolSource="VL.NewLibrary.Helper.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="TitleWithPath" />
                       </p:NodeReference>
@@ -1094,10 +1092,9 @@
                         <Patch Id="P6puCKBOD7XOpb5Csu5aaG" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="AwPPuoLEIGeLzAG0EHNf7q" Name="Then" ManuallySortedPins="true" />
                         <Node Bounds="206,867,34,19" Id="BaKBxa4mZZJOzRNradnk93">
-                          <p:NodeReference LastCategoryFullName="NewWizard" LastSymbolSource="VL.NuGet.Helper.vl">
+                          <p:NodeReference LastCategoryFullName="NewLibrary" LastSymbolSource="VL.NewLibrary.Helper.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="ProcessAppFlag" Name="Info" />
-                            <CategoryReference Kind="Category" Name="NuGet" NeedsToBeDirectParent="true" />
                           </p:NodeReference>
                           <Pin Id="QRcMIBwzrqvMbXVXHurpr6" Name="Context" Kind="InputPin" />
                           <Pin Id="EvB6go8IUrNMJjxUFuRbVw" Name="Text" Kind="InputPin" />
@@ -1239,16 +1236,15 @@
             <ControlPoint Id="K66PwLUFqN8LMYa914UgT2" Bounds="203,2046" />
             <ControlPoint Id="V7rwjQQQ8hhNX0KeSOwcu2" Bounds="276,623" />
             <Node Bounds="1331,537,43,19" Id="O0sM5hQi7meM02hgLoZbmK">
-              <p:NodeReference LastCategoryFullName="NewWizard" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NewLibrary" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Styles" />
-                <CategoryReference Kind="Category" Name="NuGet" NeedsToBeDirectParent="true" />
               </p:NodeReference>
               <Pin Id="MPXZR3ugj1oLibyn3BKTiX" Name="Output" Kind="OutputPin" />
               <Pin Id="MnXm6d2NIqmMjoSRPs8Xg0" Name="Value" Kind="OutputPin" />
             </Node>
             <Node Bounds="1369,568,98,26" Id="HeIXDxdWru8OYKmB5vUfIj">
-              <p:NodeReference LastCategoryFullName="NewWizard.StylesCore" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NuGet.StylesCore" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="StatusBackground" />
               </p:NodeReference>
@@ -1357,7 +1353,7 @@
               <Pin Id="AOHqxhqoD81Nrbh6pNw3jj" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="925,429,43,19" Id="HNbiiwMmcseL3SPnEkjzKT">
-              <p:NodeReference LastCategoryFullName="NewWizard" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NuGet" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Styles" />
               </p:NodeReference>
@@ -1365,7 +1361,7 @@
               <Pin Id="Hef0BUTjgciNTbcY3rA3th" Name="Value" Kind="OutputPin" />
             </Node>
             <Node Bounds="928,461,65,26" Id="GD10uql8CS3Qa87clzhTUa">
-              <p:NodeReference LastCategoryFullName="NewWizard.StylesCore" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NuGet.StylesCore" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Text" />
                 <CategoryReference Kind="RecordType" Name="StylesCore" NeedsToBeDirectParent="true" />
@@ -1846,7 +1842,7 @@
                 <Pin Id="H56ZmvvnlYEMZXrmvc0mCa" Name="Result" Kind="OutputPin" />
                 <ControlPoint Id="ERm7jIpa4zHNmgO2hKdVmq" Bounds="571,369" />
                 <Node Bounds="569,283,61,26" Id="DzUt82GLkD0QVossBD5TFf">
-                  <p:NodeReference LastCategoryFullName="NewWizard.StylesCore" LastSymbolSource="VL.NuGet.Helper.vl">
+                  <p:NodeReference LastCategoryFullName="NuGet.StylesCore" LastSymbolSource="VL.NewLibrary.Helper.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="RecordType" Name="StylesCore" />
                     <Choice Kind="OperationCallFlag" Name="Create" />
@@ -2040,7 +2036,7 @@
               <Pin Id="BZaHuKiJzoxPKv1HE3hqOA" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="879,233,43,19" Id="ALjMsprbfZFLPi2fOe53uL">
-              <p:NodeReference LastCategoryFullName="NewWizard" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NuGet" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Styles" />
               </p:NodeReference>
@@ -2048,7 +2044,7 @@
               <Pin Id="Mf1RliI7ChYM7SHBCQd2Yo" Name="Value" Kind="OutputPin" />
             </Node>
             <Node Bounds="882,265,54,26" Id="EnRp6Ro6kAvL0XsAOL5VXp">
-              <p:NodeReference LastCategoryFullName="NewWizard.StylesCore" LastSymbolSource="VL.NuGet.Helper.vl">
+              <p:NodeReference LastCategoryFullName="NuGet.StylesCore" LastSymbolSource="VL.NewLibrary.Helper.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Text" />
                 <CategoryReference Kind="RecordType" Name="StylesCore" NeedsToBeDirectParent="true" />
@@ -2129,16 +2125,15 @@
                   <Pin Id="VL4yHkeBeLGPGGeinTnoJY" Name="Context" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="688,514,43,19" Id="Lc12x3ClGYNPLvBrwQ1ydf">
-                  <p:NodeReference LastCategoryFullName="NewWizard" LastSymbolSource="VL.NuGet.Helper.vl">
+                  <p:NodeReference LastCategoryFullName="NewLibrary" LastSymbolSource="VL.NewLibrary.Helper.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="Styles" />
-                    <CategoryReference Kind="Category" Name="NuGet" NeedsToBeDirectParent="true" />
                   </p:NodeReference>
                   <Pin Id="I5Dd1QzTlJnLfoi73hagk2" Name="Output" Kind="OutputPin" />
                   <Pin Id="FqtbnbGPelOLtDLm5gqYTY" Name="Value" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="726,553,54,26" Id="MKwsDgsMszbMcuFbSOLhhI">
-                  <p:NodeReference LastCategoryFullName="NewWizard.StylesCore" LastSymbolSource="VL.NuGet.Helper.vl">
+                  <p:NodeReference LastCategoryFullName="NuGet.StylesCore" LastSymbolSource="VL.NewLibrary.Helper.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Warning" />
                     <CategoryReference Kind="RecordType" Name="StylesCore" NeedsToBeDirectParent="true" />
@@ -2276,16 +2271,15 @@
                   <Pin Id="G0oNlJIe0RjOCainzsVTSU" Name="Context" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="863,364,43,19" Id="BowBhLda0VFP0zacOMPVmx">
-                  <p:NodeReference LastCategoryFullName="NewWizard" LastSymbolSource="VL.NuGet.Helper.vl">
+                  <p:NodeReference LastCategoryFullName="NewLibrary" LastSymbolSource="VL.NewLibrary.Helper.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="Styles" />
-                    <CategoryReference Kind="Category" Name="NuGet" NeedsToBeDirectParent="true" />
                   </p:NodeReference>
                   <Pin Id="JkRMnv5HuFfPXFKT3RaWDH" Name="Output" Kind="OutputPin" />
                   <Pin Id="IMsTKKwA4bkOpF6H3lcVvG" Name="Value" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="901,397,54,26" Id="FxSdzBRBzaCLaUy0Xm3sVN">
-                  <p:NodeReference LastCategoryFullName="NewWizard.StylesCore" LastSymbolSource="VL.NuGet.Helper.vl">
+                  <p:NodeReference LastCategoryFullName="NuGet.StylesCore" LastSymbolSource="VL.NewLibrary.Helper.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Warning" />
                     <CategoryReference Kind="RecordType" Name="StylesCore" NeedsToBeDirectParent="true" />
@@ -2434,6 +2428,71 @@
           <Link Id="V8FF1ffmgM9PyDYnyZ7KSo" Ids="LsGrgZSo1RdNpH6nVPtkBh,U6UMWPkRPjzN8xInhi0cYR" IsHidden="true" />
         </Patch>
       </Node>
+      <!--
+
+    ************************ Unzip ************************
+
+-->
+      <Node Name="Unzip" Bounds="1083,638,207,145" Id="OFhHknNnAEWLeakiZzhkao">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
+          <CategoryReference Kind="Category" Name="Primitive" NeedsToBeDirectParent="true" />
+          <Choice Kind="OperationDefinition" Name="Operation" />
+        </p:NodeReference>
+        <Patch Id="P1c3PmK3p2iN2TlYGY3CCj">
+          <Node Bounds="1095,731,101,19" Id="HuslyCqevx9OtcEOIe86hQ">
+            <p:NodeReference LastCategoryFullName="System.IO.Compression.ZipFile" LastSymbolSource="System.IO.Compression.ZipFile.dll" OverloadStrategy="AllPinsThatAreNotCommon">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="AssemblyCategory" Name="System" />
+              <CategoryReference Kind="AssemblyCategory" Name="IO" />
+              <CategoryReference Kind="AssemblyCategory" Name="Compression" />
+              <CategoryReference Kind="AssemblyCategory" Name="ZipFile" />
+              <Choice Kind="OperationCallFlag" Name="ExtractToDirectory" />
+              <PinReference Kind="InputPin" Name="Overwrite Files" />
+            </p:NodeReference>
+            <Pin Id="LHwMjnY28GwOjlC2o1USzn" Name="Source Archive File Name" Kind="InputPin" />
+            <Pin Id="NygtxIlFXETMTWmxq6nTmC" Name="Destination Directory Name" Kind="InputPin" />
+            <Pin Id="AkUHxtvyCsbL8BpTlUDXfa" Name="Overwrite Files" Kind="InputPin" DefaultValue="True" />
+          </Node>
+          <Node Bounds="1191,692,55,19" Id="VRvowjaUi2RMPnRLsh42uT">
+            <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToString" />
+            </p:NodeReference>
+            <Pin Id="PsGjs9T0gBXQDfeiGUvQtS" Name="Input" Kind="InputPin" />
+            <Pin Id="CQAbz8c0BSEP46zWXks9hZ" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1095,692,55,19" Id="CleR95HuBLBPWep0Jn5fw8">
+            <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToString" />
+            </p:NodeReference>
+            <Pin Id="E1B0OW31FbmQQVtl2XB8wH" Name="Input" Kind="InputPin" />
+            <Pin Id="QYDJbVTZBBAPuPWd7qDDkr" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Link Id="U1bmS9EEI6XNMdpylNE4yB" Ids="CQAbz8c0BSEP46zWXks9hZ,NygtxIlFXETMTWmxq6nTmC" />
+          <Link Id="AdfKKV6DQ4TPN2O8ODZ6wR" Ids="QYDJbVTZBBAPuPWd7qDDkr,LHwMjnY28GwOjlC2o1USzn" />
+          <ControlPoint Id="Ijkb6iLp1RwPuahtEcqWZB" Bounds="1097,656" />
+          <Link Id="VlnokEvERsQOVe5suK8gTD" Ids="Ijkb6iLp1RwPuahtEcqWZB,E1B0OW31FbmQQVtl2XB8wH" />
+          <Link Id="Luw910JNPLAQMBdn1VEBcT" Ids="AI4R2kEYaooPIwVkLJ7uNH,Ijkb6iLp1RwPuahtEcqWZB" IsHidden="true" />
+          <ControlPoint Id="DUUUMrx3CeCPdeRGlDBgrV" Bounds="1194,656" />
+          <Link Id="Mjb1rwCGOHvO8O0XyTrz7X" Ids="DUUUMrx3CeCPdeRGlDBgrV,PsGjs9T0gBXQDfeiGUvQtS" />
+          <Link Id="PfGg7XN2IZgLSEwGGcKbGI" Ids="SaM0zWODcERPz6NQniffhs,DUUUMrx3CeCPdeRGlDBgrV" IsHidden="true" />
+          <ControlPoint Id="UXkuHAvCN7uOATqLYlMY1V" Bounds="1235,766" />
+          <Link Id="DDUZUzOnOyrM6ysPZUfqEm" Ids="CQAbz8c0BSEP46zWXks9hZ,UXkuHAvCN7uOATqLYlMY1V" />
+          <Link Id="MqVpgnf5NmRMJ3tQyyW4eR" Ids="UXkuHAvCN7uOATqLYlMY1V,Rlnr7KT3E0hOJcDQsB7AXu" IsHidden="true" />
+          <Pin Id="AI4R2kEYaooPIwVkLJ7uNH" Name="Zip File" Kind="InputPin" Bounds="-864,303">
+            <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Path" />
+            </p:TypeAnnotation>
+          </Pin>
+          <Pin Id="SaM0zWODcERPz6NQniffhs" Name="Destination" Kind="InputPin" Bounds="-759,271">
+            <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Path" />
+            </p:TypeAnnotation>
+          </Pin>
+          <Pin Id="Rlnr7KT3E0hOJcDQsB7AXu" Name="Output" Kind="OutputPin" Bounds="-726,378" />
+        </Patch>
+      </Node>
     </Canvas>
     <!--
 
@@ -2468,4 +2527,5 @@
   <PlatformDependency Id="TS8TD9c9AocOWIXNcgzIGZ" Location="System.Windows.Forms" />
   <NugetDependency Id="PwkRWeFOo8EQdqydhXqgnO" Location="VL.UI.Core" Version="2022.5.0-0415-g9f84c137b4" />
   <PlatformDependency Id="VahnzxYG5clPUVVYlU2ey3" Location="VL.Lang.dll" />
+  <PlatformDependency Id="KIRj8mWzKCdNtvetWeHCAK" Location="System.IO.Compression.ZipFile" />
 </Document>
